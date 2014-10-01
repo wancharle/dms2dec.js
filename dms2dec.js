@@ -1,6 +1,33 @@
 (function() {
+  var dms2decPTBR = function(lat,lon){
+      // Examples:
+      // 22°32'24.000000"S
+      // 53°39'42.120000"O
+     
+      str = lat;
+      str = str.split('°');
+      graus= str[0];
+      str = str[1].split("'");
+      minutos = str[0];
+      str = str[1].split('"');
+      segundos = str[0];
+      ref = str[1];
+      lat=[graus,minutos,segundos];
+      str = lon;
+      str = str.split('°');
+      graus= str[0];
+      str = str[1].split("'");
+      minutos = str[0];
+      str = str[1].split('"');
+      segundos = str[0];
+      reflon = str[1];
+      lon=[graus,minutos,segundos];
+
+      return dms2dec(lat,ref,lon,reflon);
+  }
   var dms2dec = function(lat, latRef, lon, lonRef) {
-    var ref = {'N': 1, 'E': 1, 'S': -1, 'W': -1};
+    var ref = {'N': 1, 'E': 1, 'S': -1, 'W': -1
+               , 'L': 1, 'O': -1}; // pt-br locale
     var i;
 
     if (typeof lat === 'string') {
