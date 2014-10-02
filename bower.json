@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "homepage": "https://github.com/wancharle/dms2dec.js",
   "authors": [
-    "Wancharle Sebastião Quirinow <wancharle@gmail.com>"
+    "Wancharle Sebastião Quirino <wancharle@gmail.com>"
   ],
   "description": "converte coordenadas gps de graus,minutos e segundos para o formato decimal utilizado por googlemaps e openstreemaps..",
   "keywords": [
