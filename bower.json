@@ -1,7 +1,7 @@
 {
   "name": "dms2dec-PTBR.js",
   "main": "dms2dec.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/wancharle/dms2dec.js",
   "authors": [
     "Wancharle Sebastião Quirino <wancharle@gmail.com>"
