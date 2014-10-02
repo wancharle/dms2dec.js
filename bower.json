@@ -1,18 +1,16 @@
 {
-  "name": "dms2dec.js (PT_BR)",
+  "name": "dms2dec-PTBR.js",
   "main": "dms2dec.js",
   "version": "1.0.1",
   "homepage": "https://github.com/wancharle/dms2dec.js",
   "authors": [
     "Wancharle Sebastião Quirino <wancharle@gmail.com>"
   ],
-  "description": "converte coordenadas gps de graus,minutos e segundos para o formato decimal utilizado por googlemaps e openstreemaps..",
   "keywords": [
-    "gps",
     "coordinates",
+    "gps",
     "dms",
-    "dec",
-    "converter"
+    "dec"
   ],
   "license": "MIT",
   "ignore": [
