@@ -3,7 +3,6 @@
       // Examples:
       // 22°32'24.000000"S
       // 53°39'42.120000"O
-     
       str = lat;
       str = str.split('°');
       graus= str[0];
@@ -12,7 +11,7 @@
       str = str[1].split('"');
       segundos = str[0];
       ref = str[1];
-      lat=[graus,minutos,segundos];
+      lat=[parseInt(graus),parseInt(minutos),parseFloat(segundos)];
       str = lon;
       str = str.split('°');
       graus= str[0];
@@ -21,7 +20,8 @@
       str = str[1].split('"');
       segundos = str[0];
       reflon = str[1];
-      lon=[graus,minutos,segundos];
+
+      lon=[parseInt(graus),parseInt(minutos),parseFloat(segundos)];
 
       return dms2dec(lat,ref,lon,reflon);
   }
@@ -60,7 +60,9 @@
 
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
     module.exports = dms2dec;
-  else
+  else {
     window.dms2dec = dms2dec;
+    window.dms2decPTBR = dms2decPTBR;
+  }
 })();
 
