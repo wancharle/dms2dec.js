@@ -1,0 +1,25 @@
+{
+  "name": "dms2decPTBR.js",
+  "version": "1.0.0",
+  "description": "convertion lib from dms to dec coordinates.",
+  "main": "dms2dec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wancharle/dms2dec.js.git"
+  },
+  "keywords": [
+    "dms",
+    "dec",
+    "coordinates",
+    "gps"
+  ],
+  "author": "wancharle sebastião quirino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wancharle/dms2dec.js/issues"
+  },
+  "homepage": "https://github.com/wancharle/dms2dec.js"
+}
