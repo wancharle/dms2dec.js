@@ -1,6 +1,6 @@
 {
-  "name": "dms2decPTBR.js",
-  "version": "1.0.0",
+  "name": "dms2dec-ptbr.js",
+  "version": "1.0.3",
   "description": "convertion lib from dms to dec coordinates.",
   "main": "dms2dec.js",
   "scripts": {
