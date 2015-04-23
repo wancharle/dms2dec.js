@@ -59,7 +59,7 @@
   };
 
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
-    module.exports = dms2dec;
+    module.exports = dms2decPTBR;
   else {
     window.dms2dec = dms2dec;
     window.dms2decPTBR = dms2decPTBR;
